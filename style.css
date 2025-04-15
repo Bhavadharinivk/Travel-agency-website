@@ -91,17 +91,6 @@ nav ul li a:hover {
     margin-top:190px;
 }
 
-#featured-destinations {
-    background-image: URL("images/hero-section.jpg");
-    padding: 3rem 0;
-    background-color: #f4f4f4;
-    justify-content: center;
-}
-#featured-destinations h2{
-    justify-content: center;
-    padding:10px;
-    margin:50px;
-}
 /* Footer */
 footer {
     text-align: center;
@@ -155,6 +144,10 @@ footer ul li a:hover {
 }
 
 #featured-destinations {
+    background-image: URL("images/hero-section.jpg");
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+    justify-content: center;
     display: flex;
     justify-content: center;
 }
@@ -167,17 +160,18 @@ footer ul li a:hover {
 }
 
 .destination {
-    width: 90px;
+    width: 70px;
     text-align: center;
 }
 
 .destination img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 5px;
 }
 #featured-destinations {
     padding: 3rem 0;
+    margin:20px;
     background-color: #f4f4f4;
     text-align: center;
 }
@@ -202,7 +196,7 @@ footer ul li a:hover {
 }
 
 .destination img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
